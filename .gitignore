@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.idea/
 *.py[cod]
 *$py.class
 
@@ -108,4 +109,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 userinfo.py
-.idea/
+

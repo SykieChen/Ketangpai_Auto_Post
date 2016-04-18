@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e89f6a0f-8566-4a6a-8691-0dad76682ed9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.pptx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autopost.py" afterPath="$PROJECT_DIR$/autopost.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userinfo.exp.py" afterPath="$PROJECT_DIR$/userinfo.exp.py" />
     </list>
     <ignored path="20160418 Ketangpai_Auto_Post.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +31,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.665873">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="autopost.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="autopost.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/autopost.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+                <state relative-caret-position="459">
+                  <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
                   <folding>
                     <element signature="e#15#30#0" expanded="true" />
                   </folding>
@@ -44,7 +43,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="userinfo.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="userinfo.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/userinfo.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
@@ -97,9 +96,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/autopost.py" />
         <option value="$PROJECT_DIR$/userinfo.exp.py" />
         <option value="$PROJECT_DIR$/userinfo.py" />
+        <option value="$PROJECT_DIR$/autopost.py" />
       </list>
     </option>
   </component>
@@ -564,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autopost.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userinfo.exp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -587,6 +576,16 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autopost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

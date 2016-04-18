@@ -62,7 +62,7 @@ if __name__ == '__main__':
             print("[info] Uploading file...")
             file_id = upload(session,sys.argv[1])
             if file_id==-1:
-                print("[error] Upload filed!")
+                print("[error] Upload failed!")
                 sys.exit()
             else:
                 print("[okay] File uploaded.")
