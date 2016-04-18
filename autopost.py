@@ -25,9 +25,11 @@ def upload(session,filename):
         'file' : (os.path.basename(filename),open(filename,'rb'))
     }
     r = session.post(h_url, files=h_dat)
-    print(h_dat)
+    # print(h_dat)
     if r.json()['status'] == 1 : return r.json()['fileid']
-    else : return -1
+    else :
+        print(r.json())
+        return -1
 
 def get_course_id(session, index):
     h_url="http://www.ketangpai.com/CourseApi/lists"

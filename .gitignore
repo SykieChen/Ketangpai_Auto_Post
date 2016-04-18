@@ -108,4 +108,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 userinfo.py
-.idea/workspace.xml
+.idea/
