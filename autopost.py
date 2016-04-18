@@ -3,6 +3,7 @@ import requests
 import userinfo
 import sys
 import time
+import os
 
 #auto login
 
@@ -19,10 +20,12 @@ def login(session):
 
 def upload(session,filename):
     h_url="http://www.ketangpai.com/UploadApi/upload"
+    print(filename)
     h_dat={
-        'file' : (filename,open(filename,'rb'))
+        'file' : (os.path.basename(filename),open(filename,'rb'))
     }
     r = session.post(h_url, files=h_dat)
+    print(h_dat)
     if r.json()['status'] == 1 : return r.json()['fileid']
     else : return -1
 
